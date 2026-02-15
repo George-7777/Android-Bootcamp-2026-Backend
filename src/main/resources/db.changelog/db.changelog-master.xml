@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <include file="db.changelog/1.0/2026-02-11--0001-user.xml"/>
+   <include file="db.changelog/1.0/2026-02-15--0002-booking.xml"/>
+   <include file="db.changelog/1.0/2026-02-15--0003-room.xml"/>
+    <include file="db.changelog/1.0/2026-02-15--0004-roomAddName.xml"/>
+
+    <include file="db.changelog/data/2026-02-11--0001-user-data.xml"/>
+    <include file="db.changelog/data/2026-02-15--0003-room-data.xml"/>
+    <include file="db.changelog/data/2026-02-15--0002-booking-data.xml"/>
+</databaseChangeLog>
